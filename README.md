@@ -1,10 +1,28 @@
-# File Sorter Script 🗂️
+# File Sorter
 
-A simple Python script that organizes files in a folder into categories like **Images, Documents, Videos, and Other**. Organize your files with just one command!  
+A Python script that automatically sorts files in a given directory into categorized subfolders based on file extension.
 
 ## Features
-- Automatically determines if destination directories exist and creates them if not
-- Detects file types in a specified path and moves them to corresponding folders
-- Supports images, documents, audio and other files
 
+- Sorts files into Images, Documents, Audio, and Other folders
+- Creates destination folders automatically if they don't exist
+- Easy to extend with new file types
 
+## How to Run
+
+1. Clone the repository
+2. Edit the `path` variable in `File_Organizer.py` to point to the folder you want to sort
+3. Run the script:
+
+```bash
+python File_Organizer.py
+```
+
+## Supported File Types
+
+| Category  | Extensions                        |
+|-----------|-----------------------------------|
+| Images    | .jpg, .jpeg, .png, .gif, .bmp     |
+| Documents | .pdf, .docx, .txt, .xlsx, .pptx   |
+| Audio     | .mp3, .wav, .flac, .aac           |
+| Other     | anything not listed above         |
